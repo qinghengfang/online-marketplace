@@ -1,0 +1,128 @@
+.main table
+{
+  margin: auto;
+  width: 100%;
+}
+
+.main table thead tr
+{
+  vertical-align: top;
+}
+
+.buyBtn
+{
+  background-color: #FF6E33;
+  color: white;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.tr-hover
+{
+  background-color: #fff;
+}
+
+.tr-hover:hover
+{
+  background-color: #77aff7;
+}
+
+.productDetails
+{
+  width: 100%;
+  text-align: left;
+  background-color: rgb(224, 224, 224);
+  transition: max-height 0.5s ease-out;  
+  background: #e5feff;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.productDetails p
+{
+  margin: 1em;
+}
+
+.select-none {
+  user-select: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.tb-expand {
+  max-height: 120px;
+  transition: max-height 0.5s ease-in;
+}
+
+.fade-in-row { 
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(89, 89, 89);
+  padding: 20px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

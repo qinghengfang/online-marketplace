@@ -1,0 +1,1 @@
+Build, Test and Deployment status: [![Build and deploy ASP.Net Core app to Azure Web App - fullstackmarketplacebackend](https://github.com/VerzeFullStack/Backend/actions/workflows/master_fullstackmarketplacebackend.yml/badge.svg?branch=master)](https://github.com/VerzeFullStack/Backend/actions/workflows/master_fullstackmarketplacebackend.yml)
